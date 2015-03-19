@@ -2,6 +2,7 @@ class MyWebServer
   # Handles a GET request
    @param request [Request] the request object
    @return [String] the resulting webpage
+   @note this is just an experiment
   def get(request) "hello" end
 
   # Handles a POST request
